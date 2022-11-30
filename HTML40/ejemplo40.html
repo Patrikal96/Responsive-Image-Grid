@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing:border-box;
+
+}
+
+
+body {
+  margin: 35px;
+  font-family:Georgia, Times, 'Times New Roman', serif;
+  color: rgb(11, 236, 164);
+  background-image: url('https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+
+
+
+.header {
+  text-align: center;
+  padding: 50px;
+}
+
+.row {
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 10px 30px 60px;
+
+}
+
+.column {
+ 
+  flex: 30%;
+  max-width: 25%;
+  padding:  4px ;
+  border: 20px;
+  
+}
+
+.column img {
+  margin-top: 5px;
+  border-radius: 10px;
+ 
+  vertical-align: middle;
+  
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    border-radius: 20px;
+    
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+  
+    flex: 100%;
+    border-radius: 10px;
+   
+  }
+}
+
+
+</style>
+<body>
+
+
+<div class="header">
+  <h1><i>Responsive Image Grid</i></h1><br>
+  <p style="color: rgba(25, 249, 230, 0.855) ;">COLORES,FONDOS,BLANCO Y NEGRO.</p>
+</div>
+
+<div class="row"> 
+  <div class="column">
+
+ 
+    <img src="https://images.pexels.com/photos/13716834/pexels-photo-13716834.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  style="width:100%;">
+    <img src="https://images.pexels.com/photos/11055161/pexels-photo-11055161.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" style="width:100%">
+    <img src="https://images.pexels.com/photos/13142521/pexels-photo-13142521.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" style="width:100%">
+    <img src="https://images.pexels.com/photos/12603702/pexels-photo-12603702.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" style="width:100%">
+    <img src="https://images.pexels.com/photos/9651000/pexels-photo-9651000.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" style="width:100%">
+    <img src="https://images.pexels.com/photos/13284755/pexels-photo-13284755.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" style="width:100%">
+    <img src="https://images.pexels.com/photos/13355272/pexels-photo-13355272.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://images.pexels.com/photos/13446844/pexels-photo-13446844.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" style="width:100%">
+    <img src="https://images.pexels.com/photos/11006438/pexels-photo-11006438.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" style="width:100%">
+    <img src="https://images.pexels.com/photos/8596889/pexels-photo-8596889.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" style="width:100%">
+    <img src="https://images.pexels.com/photos/13987195/pexels-photo-13987195.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" style="width:100%">
+    <img src="https://images.pexels.com/photos/10476524/pexels-photo-10476524.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" style="width:100%">
+    <img src="https://images.pexels.com/photos/9845610/pexels-photo-9845610.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="https://images.pexels.com/photos/2664419/pexels-photo-2664419.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:100%">
+    <img src="https://images.pexels.com/photos/4463762/pexels-photo-4463762.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:100%">
+    <img src="https://images.pexels.com/photos/4737508/pexels-photo-4737508.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:100%">
+    <img src="https://images.pexels.com/photos/2989209/pexels-photo-2989209.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:100%">
+    <img src="https://images.pexels.com/photos/3050938/pexels-photo-3050938.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:100%">
+    <img src="https://images.pexels.com/photos/8209177/pexels-photo-8209177.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:100%">
+    <img src="https://images.pexels.com/photos/10653645/pexels-photo-10653645.jpeg?auto=compress&cs=tinysrgb&w=600" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%">
+    <img src="https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%">
+    <img src="https://images.pexels.com/photos/839462/pexels-photo-839462.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%">
+    <img src="https://images.pexels.com/photos/2433985/pexels-photo-2433985.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%">
+    <img src="https://images.pexels.com/photos/872831/pexels-photo-872831.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%">
+    <img src="https://images.pexels.com/photos/1083822/pexels-photo-1083822.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%">
+  </div>
+
+
+</div>
+
+</body>
+</html>
